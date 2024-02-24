@@ -1,25 +1,25 @@
 # **Email Spoofing Detector**
 
-This Python script detects email spoofing using the emailSpoofDetection package. It analyzes email headers to determine if an email is likely to be spoofed.
+This Python script detects email spoofing using the `emailSpoofDetection` package. It analyzes email headers to determine if an email is likely to be spoofed.
 
-Usage
-Install Dependencies: Before running the script, make sure you have the emailSpoofDetection package installed. You can install it using the following command:
+## Usage
 
-Copy code
-pip install emailSpoofDetection
-Run the Script: Run the script with the following command, providing the path to the email header file as an argument:
+1. **Install Dependencies**: Before running the script, make sure you have the `emailSpoofDetection` package installed. You can install it using the following command:
 
-Copy code
-python spoof_detection.py email_header_file.txt
-Replace email_header_file.txt with the path to your email header file.
+2. **Run the Script**: Run the script with the following command, providing the path to the email header file as an argument:
 
-Follow the Prompt: The script will prompt you to enter the email domain. Enter the domain of the email you want to analyze.
 
-View the Result: The script will analyze the email header and print whether it believes the email is spoofed or not. If spoofing is detected, it will also print details about why it believes the email is spoofed.
+Replace `email_header_file.txt` with the path to your email header file.
 
-Requirements
-Python 3.x
-emailSpoofDetection package
-Example
-An example email header file (email_header_file.txt) is provided in the repository. You can use this file to test the script.
+3. **Follow the Prompt**: The script will prompt you to enter the email domain. Enter the domain of the email you want to analyze.
 
+4. **View the Result**: The script will analyze the email header and print whether it believes the email is spoofed or not. If spoofing is detected, it will also print details about why it believes the email is spoofed.
+
+## Requirements
+
+- Python 3.x
+- `emailSpoofDetection` package
+
+## Example
+
+An example email header file (`email_header_file.txt`) is provided in the repository. You can use this file to test the script.
