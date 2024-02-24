@@ -5,8 +5,9 @@ This Python script detects email spoofing using the `emailSpoofDetection` packag
 ## Usage
 
 1. **Install Dependencies**: Before running the script, make sure you have the `emailSpoofDetection` package installed. You can install it using the following command:
-
+pip install emailSpoofDetection
 2. **Run the Script**: Run the script with the following command, providing the path to the email header file as an argument:
+python spoof_detection.py email_header_file.txt
 
 
 Replace `email_header_file.txt` with the path to your email header file.
